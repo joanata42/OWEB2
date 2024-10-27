@@ -1,0 +1,49 @@
+<!DOCTYPE html> 
+
+<html>
+<head>
+    <meta charset = "utf-8">
+    <link rel="stylesheet" href="externalcss.css">
+    <title> Order pizza </title>
+    <body>
+        <h1> <center> Order pizza! </center> </h1>
+        <br>
+        <form>
+            <center><label><h3> Select the pizza size: </h3></center>
+            <center> <label>Big <input type="radio" name="size" value="Big"> </label> </center>
+            <center> <label>Medium <input type="radio" name="size" value="Medium"> </label> </center>
+            <center> <label>Large <input type="radio" name="size" value="Large"> </label> </center>
+            <br>
+            <center><label><h3> Select the crust type: </h3>
+            <select class="dropdown">
+                <option>Thin Crust</option>
+                <option>Sicilian Crust</option>
+                <option>Thick Crust</option>
+                <option>Gluten-Free Crust</option>
+                <option>New York Style Crust</option>
+            </select> </center> 
+            <br>
+            <center><label><h3> Select the toppings: </h3>
+                 <center><input type="checkbox"> Mushrooms </center>
+                 <center><input type="checkbox"> Bacon </center>
+                 <center><input type="checkbox"> Peppers</center>
+                 <center><input type="checkbox"> Mozzarela</center>
+            </center>
+
+        </form>
+        <br>
+        <form action="https://www.youtube.com/live/WWHhJWVWTLo?si=hrd7uAjn0qAO_G8A">
+            <center><label> <strong> Name:</strong></label> 
+            <input class="box" type="text" </center>
+            <center><label> <strong> Phone:</strong> </label> 
+            <input class="box" type="text" placeholder="07x-xxx-xxx" required </center>
+            <center> <textarea class="box"> Comment </textarea></center>
+        </form>
+        <p>
+            <center> <input class="buttonclear" type = "reset" value="Clear">
+                <input class="buttonorder" type = "submit" value="Order"> </center>
+        </p>
+    </body>
+</head>
+
+</html>
